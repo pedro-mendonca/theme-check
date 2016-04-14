@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Theme Check\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-05 14:43+0100\n"
-"PO-Revision-Date: 2016-04-05 15:19+0100\n"
+"PO-Revision-Date: 2016-04-14 18:58+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -131,7 +131,7 @@ msgstr ""
 #: checks/basic.php:32
 #, php-format
 msgid "%s call in body tag"
-msgstr "chamada %s na tag <em>body</em>"
+msgstr "chamada %s na etiqueta <em>body</em>"
 
 #: checks/basic.php:34
 #, php-format
@@ -453,7 +453,7 @@ msgstr ""
 #: checks/phpshort.php:14
 #, php-format
 msgid "Found PHP short tags in file %s."
-msgstr "Foram encontradas <em>tags</em> curtas de PHP no ficheiro %s."
+msgstr "Foram encontradas <em>short tags</em> de PHP no ficheiro %s."
 
 #: checks/plugin-territory.php:24
 #, php-format
@@ -579,8 +579,8 @@ msgid ""
 "Themes that use the tag accessibility-ready will need to undergo an "
 "accessibility review."
 msgstr ""
-"Os temas que utilizarem a tag <em>accessibility-ready</em> serão sujeitos a "
-"uma revisão de acessibilidade."
+"Os temas que utilizarem a etiqueta <em>accessibility-ready</em> serão "
+"sujeitos a uma revisão de acessibilidade."
 
 #: checks/style_tags.php:30
 #, php-format
@@ -589,15 +589,15 @@ msgid ""
 "Additionally, the %5$s tag was added. Please change to using one of the new "
 "tags."
 msgstr ""
-"As tags %1$s e %2$s foram alteradas para %3$s e %4$s no WordPress 3.8. Foi "
-"ainda adicionada a tag %5$s. Por favor altere de modo a utilizar uma das "
-"novas tags."
+"As etiquetas %1$s e %2$s foram alteradas para %3$s e %4$s no WordPress 3.8. "
+"Foi ainda adicionada a etiqueta %5$s. Por favor altere de modo a utilizar "
+"uma das novas etiquetas."
 
 #: checks/style_tags.php:32
 #, php-format
 msgid "Found wrong tag, remove %s from your style.css header."
 msgstr ""
-"Foi encontrada uma tag errada, remova %s do cabeçalho do seu style.css."
+"Foi encontrada uma etiqueta errada, remova %s do cabeçalho do seu style.css."
 
 #: checks/tags.php:13
 msgid ""
@@ -688,7 +688,7 @@ msgstr ""
 #: checks/title.php:27
 #, php-format
 msgid "The theme needs to have %1$s tags, ideally in the %2$s file."
-msgstr "O tema tem que ter tags %1$s, idealmente no ficheiro %2$s."
+msgstr "O tema tem que ter etiquetas %1$s, idealmente no ficheiro %2$s."
 
 #: checks/title.php:34
 #, php-format
@@ -701,8 +701,8 @@ msgid ""
 "The %1$s tags can only contain a call to %2$s. Use the %3$s filter to modify "
 "the output."
 msgstr ""
-"As tags %1$s só podem conter uma chamada para %2$s. Utilize o filtro %3$s "
-"para modificar o resultado."
+"As etiquetas %1$s só podem conter uma chamada para %2$s. Utilize o filtro "
+"%3$s para modificar o resultado."
 
 #: checks/uri.php:15
 msgid "Your Theme URI and Author URI should not be the same."
@@ -821,7 +821,8 @@ msgid ""
 "Child theme does not have the <strong>Template Version</strong> tag in style."
 "css."
 msgstr ""
-"O tema dependente não tem <strong>Template Version</strong> no style.css."
+"O tema dependente não tem a etiqueta <strong>Template Version</strong> no "
+"style.css."
 
 #: main.php:74
 #, php-format
